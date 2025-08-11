@@ -101,7 +101,7 @@ const Login = ({ setIsLoggedIn, setUserRole, rememberMe, setRememberMe }) => {
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-slate-100 via-white to-slate-100 px-4">
       <div className="flex flex-col md:flex-row bg-white rounded-2xl shadow-lg overflow-hidden max-w-5xl w-full">
         <div className="md:w-1/2 hidden md:block">
-          <img src="/images/login-page2.png" alt="Login illustration" className="h-full w-full object-cover object-top" />
+          <img src={`${process.env.PUBLIC_URL}/images/login-page2.png`} alt="Login illustration" className="h-full w-full object-cover object-top" />
         </div>
 
         <div className="w-full md:w-1/2 p-8 md:p-12 flex flex-col justify-center">
